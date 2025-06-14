@@ -1,0 +1,13 @@
+[window]
+opacity = 0.85
+blur = true
+
+decorations_theme_variant = "Dark"
+
+padding.x = 10
+padding.y = 10
+
+[font]
+normal = { family = "Hack Nerd Font Propo"}
+bold = { family = "Hack Nerd Font" }
+size = 16.0

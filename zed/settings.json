@@ -1,0 +1,52 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "assistant": {
+    "default_model": {
+      "provider": "lmstudio",
+      "model": "qwen2.5-coder-3b-instruct"
+    },
+    "version": "2"
+  },
+  "ui_font_size": 16,
+  "buffer_font_size": 16,
+  "theme": {
+    "mode": "system",
+    "light": "One Light",
+    "dark": "Ayu Dark"
+  },
+  "autosave": "off",
+  "restore_on_startup": "none",
+  "vim_mode": true,
+  "dock": "left",
+  "relative_line_numbers": true,
+  "scrollbar": {
+    "show": "never"
+  },
+  "tabs": {
+    "close_position": "right"
+  },
+  "terminal": {
+    "font_family": "Hack Nerd Font Mono"
+  },
+  "language_models": {
+    "openai": {
+      "version": "1",
+      "api_url": "http://localhost:1234/v1",
+      "available_models": [
+        {
+          "provider": "openai",
+          "name": "qwen2.5-coder-3b-instruct",
+          "display_name": "LM Studio",
+          "max_tokens": 2048
+        }
+      ]
+    }
+  }
+}
